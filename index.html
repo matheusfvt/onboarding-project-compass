@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projeto 2 Compass</title>
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <section class="pagina">
+            <!--card1-->
+            <div id="card1" class="card card-active">
+                <img src="imgs/img1.png" alt="Imagem de um globo" class="card__imagem" />
+                <h2 class="card__titulo">Plant lover Community</h2>
+                <p class="card__texto">Find gardening enthusiasts from all over the world</p>
+            </div>
+            <!--card2-->
+            <div id="card2" class="card">
+                <img src="imgs/img2.png" alt="Imagem de um globo" class="card__imagem" />
+                <h2 class="card__titulo">Get fast & safe delivery</h2>
+                <p class="card__texto">Get good quality products for your plants</p>
+            </div>
+            <!--card3-->
+            <div id="card3" class="card">
+                <img src="imgs/img3.png" alt="Imagem de um globo" class="card__imagem" />
+                <h2 class="card__titulo">Buy & Sell Tools</h2>
+                <p class="card__texto">Buy & sell good quality products for your beautiful plants</p>
+            </div>
+            <div class="card__inputs">
+                <div class="card__inputs-item" id="pagination-1"></div>
+                <div class="card__inputs-item" id="pagination-2"></div>
+                <div class="card__inputs-item" id="pagination-3"></div>
+            </div>
+            <button id="botao_continue" onclick="botaoContinue()" class="card__button card__button-first">Continue</button>
+            <button id="botao_getStarted" onclick="showFirstPage()" class="card__button card__button-first card_button-disabled">Get started</button>
+            <button id="botao_skip" onclick="showThirdPage()" class="card__button card__button-second">Skip</button>
+        </section>
+    </body>
+    <script src="index.js"></script>
+</html>

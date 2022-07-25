@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.pagina {
+  max-width: 425px;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.pagina .card-active {
+  display: block !important;
+}
+.pagina .card {
+  display: none;
+}
+.pagina .card .card__imagem {
+  width: 100%;
+}
+.pagina .card .card__titulo {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 31px;
+  text-align: center;
+  color: #000000;
+  margin: 0.5rem 0 1.5rem;
+}
+.pagina .card .card__texto {
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+.pagina .card__inputs {
+  display: flex;
+  align-items: center;
+  margin: 4rem auto;
+  justify-content: center;
+}
+.pagina .card__inputs .card__inputs-item {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.pagina .card__inputs .card__inputs-item:first-child {
+  border: 1px solid #92e3a9;
+  background-color: #92e3a9;
+}
+.pagina .card__inputs .card__inputs-item:nth-child(2) {
+  margin: 0 1.1rem;
+}
+.pagina .card__button {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  padding: 0.8rem;
+  border: 0;
+  cursor: pointer;
+}
+.pagina .card__button-first {
+  background-color: #92e3a9;
+  box-shadow: 0px 4px 10px 0px #a1c3fc;
+  color: #ffffff;
+}
+.pagina .card__button-second {
+  color: #92e3a9;
+  background: transparent;
+  margin: 2rem 0 4rem;
+}
+.pagina #botao_getStarted {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
